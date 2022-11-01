@@ -40,3 +40,7 @@ I made a website about a pointify clone, but basically what I did was to take a 
 `https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Pointify%20clone%20page`
 
 ## Video
+
+
+https://user-images.githubusercontent.com/99032604/199360280-e6d1ea3f-0175-487f-99b2-1f881798c95b.mp4
+
