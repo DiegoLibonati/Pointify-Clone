@@ -37,7 +37,7 @@ I made a website about a pointify clone, but basically what I did was to take a 
 
 ## Portfolio Link
 
-`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Pointify%20clone%20page`
+`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Pointify%20Clone%20Page`
 
 ## Video
 
