@@ -23,21 +23,9 @@ I made a website about a pointify clone, but basically what I did was to take a 
 2. Javascript
 3. HTML5
 
-## Galery
-
-![Pointify](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/Css/Imagenes/pontify-0.jpg)
-
-![Pointify](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/Css/Imagenes/pontify-1.jpg)
-
-![Pointify](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/Css/Imagenes/pontify-2.jpg)
-
-![Pointify](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/Css/Imagenes/pontify-3.jpg)
-
-![Pointify](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/Css/Imagenes/pontify-4.jpg)
-
 ## Portfolio Link
 
-`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Pointify%20Clone%20Page`
+[`https://www.diegolibonati.com.ar/#/project/55`](https://www.diegolibonati.com.ar/#/project/55)
 
 ## Video
 
