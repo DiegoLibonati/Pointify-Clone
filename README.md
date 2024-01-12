@@ -64,19 +64,19 @@ const btnsOpenQuestion = document.querySelectorAll(
 btnsOpenQuestion.forEach(function (btn) {
   btn.addEventListener("click", (e) => {
     const target = e.currentTarget as HTMLElement;
-    const btnRespond = target.parentElement?.children[1];
+    const showAnswer = target.parentElement?.children[1];
 
-    btnRespond?.classList.toggle("open-respond");
+    showAnswer?.classList.toggle("open-respond");
 
-    const children = target.children[1] as HTMLElement;
-    const children2 = target.children[2] as HTMLElement;
+    const down = target.children[1] as HTMLElement;
+    const up = target.children[2] as HTMLElement;
 
-    if (btnRespond?.classList.contains("open-respond")) {
-      children.style.display = "none";
-      children2.style.display = "flex";
+    if (showAnswer?.classList.contains("open-respond")) {
+      down.style.display = "none";
+      up.style.display = "flex";
     } else {
-      children.style.display = "none";
-      children2.style.display = "flex";
+      down.style.display = "flex";
+      up.style.display = "none";
     }
   });
 });
@@ -98,27 +98,21 @@ scrollLinks.forEach(function (scrollLink) {
 
     const scrollLinkId = target.getAttribute("href")?.substring(1);
 
-    for (let i = 0; i < scrollLinks.length; i++) {
-      const element = scrollLinks[i] as HTMLElement;
+    const itemNavWithUnderline = document.querySelector(".colorItemNavClick");
 
-      if (element.classList.contains("colorItemNavClick")) {
-        element.classList.remove("colorItemNavClick");
-      }
-    }
+    if (itemNavWithUnderline)
+      itemNavWithUnderline.classList.remove("colorItemNavClick");
 
     target.classList.add("colorItemNavClick");
 
-    for (let i = 0; i < sections.length; i++) {
-      const section = sections[i] as HTMLElement;
-      if (scrollLinkId == section.id) {
-        const sectionTop = section.offsetTop - navHeight;
+    const section = document.getElementById(`${scrollLinkId}`)
 
-        window.scrollTo({
-          left: 0,
-          top: sectionTop,
-        });
-      }
-    }
+    const sectionTop = section!.offsetTop - navHeight;
+
+    window.scrollTo({
+      left: 0,
+      top: sectionTop,
+    });
   });
 });
 ```
