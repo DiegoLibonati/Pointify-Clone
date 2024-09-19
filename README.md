@@ -1,4 +1,4 @@
-# Pointify-Clone-Page
+# Pointify Clone
 
 ## Getting Started
 
@@ -32,7 +32,7 @@ I made a website about a pointify clone, but basically what I did was to take a 
 
 ## Portfolio Link
 
-[`https://www.diegolibonati.com.ar/#/project/55`](https://www.diegolibonati.com.ar/#/project/55)
+[`https://www.diegolibonati.com.ar/#/project/Pointify-Clone`](https://www.diegolibonati.com.ar/#/project/Pointify-Clone)
 
 ## Video
 
